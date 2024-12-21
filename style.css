@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", serif;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper .percent {
+  font-size: 100px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.wrapper .progress-bar {
+  width: 409px;
+  height: 20px;
+  background-color: #4d4d4d;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.wrapper .progress {
+  width: 200px;
+  height: 100%;
+  background-color: #fd5141;
+  border-radius: 5px;
+}
